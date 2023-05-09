@@ -22,6 +22,7 @@
     "@swimlane/ngx-charts": "^20.1.2",
     "ag-grid-angular": "^29.3.4",
     "ag-grid-community": "^29.3.4",
+    "angular-cli-ghpages": "^1.0.6",
     "angular-plotly.js": "^5.1.0",
     "bootstrap": "^5.2.3",
     "d3": "^7.8.4",
