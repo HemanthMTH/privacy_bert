@@ -1,0 +1,28 @@
+.container {
+    margin-top: 2rem;
+  }
+  
+  .member-card {
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    max-width: 350px; // Added max-width for the card
+  }
+  
+  .card-title {
+    min-height: 48px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+  

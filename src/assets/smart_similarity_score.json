@@ -1,0 +1,252 @@
+[
+    {
+        "url": "https://www.us.eufylife.com",
+        "similarity_score": 0.9999998807907104,
+        "reference": 1
+    },
+    {
+        "url": "https://www.elitesingles.com",
+        "similarity_score": 0.8050408363342285,
+        "reference": 2
+    },
+    {
+        "url": "https://www.salams.app",
+        "similarity_score": 0.9578098654747009,
+        "reference": 3
+    },
+    {
+        "url": "https://www.sanvello.com",
+        "similarity_score": 0.9909943342208862,
+        "reference": 4
+    },
+    {
+        "url": "https://www.oculus.com",
+        "similarity_score": 0.8747947812080383,
+        "reference": 5
+    },
+    {
+        "url": "https://www.recoveryrecord.com",
+        "similarity_score": 0.838721513748169,
+        "reference": 6
+    },
+    {
+        "url": "https://www.bumble.com",
+        "similarity_score": 0.955342173576355,
+        "reference": 7
+    },
+    {
+        "url": "https://www.badoo.com",
+        "similarity_score": 0.6806337237358093,
+        "reference": 8
+    },
+    {
+        "url": "https://www.simplisafe.com",
+        "similarity_score": 0.7428873181343079,
+        "reference": 9
+    },
+    {
+        "url": "http://www.headspace.com",
+        "similarity_score": 0.9622364044189453,
+        "reference": 10
+    },
+    {
+        "url": "https://www.houseparty.com",
+        "similarity_score": 0.7558118104934692,
+        "reference": 11
+    },
+    {
+        "url": "https://www.petcube.com",
+        "similarity_score": 0.9637488126754761,
+        "reference": 12
+    },
+    {
+        "url": "https://www.oviahealth.com",
+        "similarity_score": 0.7487441897392273,
+        "reference": 13
+    },
+    {
+        "url": "https://www.portal.facebook.com",
+        "similarity_score": 0.9388410449028015,
+        "reference": 14
+    },
+    {
+        "url": "https://www.petchatz.com",
+        "similarity_score": 0.7003502249717712,
+        "reference": 15
+    },
+    {
+        "url": "https://www.support.apple.com",
+        "similarity_score": 0.8426147699356079,
+        "reference": 16
+    },
+    {
+        "url": "https://www.nordictrack.com",
+        "similarity_score": 0.7536054849624634,
+        "reference": 17
+    },
+    {
+        "url": "https://www.fitbit.com",
+        "similarity_score": 0.851468563079834,
+        "reference": 18
+    },
+    {
+        "url": "https://www.glowing.com",
+        "similarity_score": 0.7419793605804443,
+        "reference": 19
+    },
+    {
+        "url": "https://www.microsoft.com",
+        "similarity_score": 0.9567967653274536,
+        "reference": 20
+    },
+    {
+        "url": "https://www.playstation.com",
+        "similarity_score": 0.8456389904022217,
+        "reference": 21
+    },
+    {
+        "url": "https://www.doxy.me",
+        "similarity_score": 0.8224126100540161,
+        "reference": 22
+    },
+    {
+        "url": "https://www.zoom.us",
+        "similarity_score": 0.7130434513092041,
+        "reference": 23
+    },
+    {
+        "url": "https://www.sanityandself.com",
+        "similarity_score": 0.9957452416419983,
+        "reference": 24
+    },
+    {
+        "url": "https://www.thetileapp.com",
+        "similarity_score": 0.8107872009277344,
+        "reference": 25
+    },
+    {
+        "url": "https://www.ashleymadison.com",
+        "similarity_score": 0.6327598094940186,
+        "reference": 26
+    },
+    {
+        "url": "https://www.bearable.app",
+        "similarity_score": 1.0000001192092896,
+        "reference": 27
+    },
+    {
+        "url": "https://www.youper.ai",
+        "similarity_score": 0.9425872564315796,
+        "reference": 28
+    },
+    {
+        "url": "https://www.sanityandself.com",
+        "similarity_score": 0.9957452416419983,
+        "reference": 29
+    },
+    {
+        "url": "https://www.thetileapp.com",
+        "similarity_score": 0.8107872009277344,
+        "reference": 30
+    },
+    {
+        "url": "https://www.ashleymadison.com",
+        "similarity_score": 0.6327598094940186,
+        "reference": 31
+    },
+    {
+        "url": "https://www.bearable.app",
+        "similarity_score": 1.0000001192092896,
+        "reference": 32
+    },
+    {
+        "url": "https://www.youper.ai",
+        "similarity_score": 0.9425872564315796,
+        "reference": 33
+    },
+    {
+        "url": "https://www.woebothealth.com",
+        "similarity_score": 0.9822519421577454,
+        "reference": 34
+    },
+    {
+        "url": "https://www.skype.com",
+        "similarity_score": 0.7404347062110901,
+        "reference": 35
+    },
+    {
+        "url": "https://www.themighty.com",
+        "similarity_score": 0.6849989295005798,
+        "reference": 36
+    },
+    {
+        "url": "https://www.us.kobobooks.com",
+        "similarity_score": 0.5540850162506104,
+        "reference": 37
+    },
+    {
+        "url": "https://www.threema.ch",
+        "similarity_score": 0.8396029472351074,
+        "reference": 38
+    },
+    {
+        "url": "https://www.ryzerobotics.com",
+        "similarity_score": 1.0,
+        "reference": 39
+    },
+    {
+        "url": "https://www.equinoxplus.com",
+        "similarity_score": 1.0000001192092896,
+        "reference": 40
+    },
+    {
+        "url": "https://www.educationalinsights.com",
+        "similarity_score": 0.9152604341506958,
+        "reference": 41
+    },
+    {
+        "url": "https://www.chipolo.net",
+        "similarity_score": 0.7423944473266602,
+        "reference": 42
+    },
+    {
+        "url": "https://www.bluejeans.com",
+        "similarity_score": 0.6941296458244324,
+        "reference": 43
+    },
+    {
+        "url": "https://www.hinge.co",
+        "similarity_score": 0.628643274307251,
+        "reference": 44
+    },
+    {
+        "url": "https://www.thebetterappcompany.com",
+        "similarity_score": 0.9919936656951904,
+        "reference": 45
+    },
+    {
+        "url": "https://www.weareher.com",
+        "similarity_score": 0.7554743885993958,
+        "reference": 46
+    },
+    {
+        "url": "https://www.fitbark.com",
+        "similarity_score": 0.9995784759521484,
+        "reference": 47
+    },
+    {
+        "url": "https://www.joinfightcamp.com",
+        "similarity_score": 0.9999999403953552,
+        "reference": 48
+    },
+    {
+        "url": "https://www.ring.com",
+        "similarity_score": 0.6526689529418945,
+        "reference": 49
+    },
+    {
+        "url": "https://www.flo.health",
+        "similarity_score": 0.7626623511314392,
+        "reference": 50
+    }
+]

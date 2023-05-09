@@ -1,0 +1,23 @@
+<div class="container my-5">
+    <h2 class="fw-bold text-center mb-5">Members</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" *ngFor="let member of members"> <!-- Updated column classes -->
+        <div class="card h-100 member-card">
+          <img [src]="member.imagePath" class="card-img-top" alt="{{ member.name }}">
+          <div class="card-body">
+            <h5 class="card-title d-flex align-items-center">
+              {{ member.name }}
+              <ng-container *ngIf="member?.website">
+                <a [href]="member?.website" class="link-primary ms-2" target="_blank" rel="noopener noreferrer" [title]="member?.website">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </ng-container>
+            </h5>
+            <p class="card-text">{{ member.position }}</p>
+            <p class="card-text">{{ member.affiliation }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
