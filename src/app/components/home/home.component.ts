@@ -1,55 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import smartData from '../../../assets/smart_similarity_score.json';
-import formattedSmartData from '../../../assets/formatted_similarity_matrix_2020.json';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Color, ScaleType } from '@swimlane/ngx-charts';
-import {
-  ColDef,
-  GridApi,
-  GridOptions,
-  GridReadyEvent,
-} from 'ag-grid-community';
+import smartData from '../../../assets/json/smart_websites_scores.json';
+import popularData from '../../../assets/json/popular_websites_scores.json';
 
-import { interpolateRgbBasis } from 'd3-interpolate';
-
-
-
-function generateColorScheme(steps: number): string[] {
-  const interpolator = interpolateRgbBasis([
-    '#FF0000', // Red for value 0
-    '#FFFF00', // Yellow for value 0.25
-    '#00FF00', // Green for value 0.5
-    '#00FFFF', // Cyan for value 0.75
-    '#0000FF', // Blue for value 1
-  ]);
-
-  const colors: string[] = [];
-  for (let i = 0; i <= steps; i++) {
-    const rate = i / steps;
-    colors.push(interpolator(rate));
-  }
-
-  return colors;
-}
-
-interface Record {
-  url: string;
-  similarity_score: number;
-}
-
-interface DataItem {
-  name: string | number | Date;
-  value: string | number | Date;
-  extra?: any;
-  min?: number;
-  max?: number;
-  label?: string;
-}
-
-interface Series {
-  name: string | number | Date;
-  series: DataItem[];
-}
 
 @Component({
   selector: 'app-home',
@@ -57,137 +9,124 @@ interface Series {
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  heatMapForm: FormGroup = this.fb.group({
-    min: [null, Validators.compose([Validators.required, Validators.min(1)])],
-    max: [null, Validators.compose([Validators.required, Validators.min(1)])],
-  });
 
-  outOfBound: boolean;
-  submitted: boolean;
-  heatMapChartData: Series[] = [];
-
-  // Dynamic heatmap
-  view: [number, number] = [1000, 800];
-  showXAxis = true;
-  showYAxis = true;
-  showXAxisLabel = true;
-  showYAxisLabel = true;
-  steps = 10;
-  customColor: Color = {
-    name: 'Custom',
-    selectable: true,
-    group: ScaleType.Linear,
-    domain: generateColorScheme(this.steps),
-  };
-  
-
-  legend: boolean = true;
-  xAxis: boolean = true;
-  yAxis: boolean = true;
-  xAxisLabelH: string = 'Policies';
-  yAxisLabelH: string = 'Policies';
-
-  rowData$!: any[];
-  defaultColDef: ColDef = {
-    sortable: true,
-    filter: true,
-  };
-  gridOptions: GridOptions = {
-    pagination: true,
-    paginationPageSize: 10,
-    suppressHorizontalScroll: true,
-  };
-
-  public columnDefs: ColDef[] = [
-    {
-      headerName: 'S No.',
-      field: 'reference',
+  barChartData: any[];
+  barChartDataPopular: any[];
+  barChartLayoutPopular = {
+    title: 'Similarity Scores of two different versions of Smart Device Website\'s Privacy Policies',
+    xaxis: {
+      title: 'Websites',
+      tickfont: { size: 0 }, 
+      showticklabels: false 
     },
-    {
-      headerName: 'URL',
-      field: 'url',
-    },
-  ];
-
-  barChartData = [{
-    x: smartData.map(d => d.url),
-    y: smartData.map(d => d.similarity_score),
-    type: 'bar'
-  }];
+    yaxis: {
+      title: 'Similarity Score',
+      tickformat: '.2f', 
+      range: [0, 1]
+    }
+  };
 
   barChartLayout = {
-    title: 'Bar Chart of Similarity Scores',
-    xaxis: { title: 'URL' },
-    yaxis: { title: 'Similarity Score' }
-  };
-
-  bubbleChartData = [{
-    x: smartData.map(d => d.url),
-    y: smartData.map(d => d.similarity_score),
-    mode: 'markers',
-    marker: {
-      size: smartData.map(d => d.similarity_score * 100),
-      sizemode: 'diameter'
+    title: 'Similarity Scores of two different versions of Some Popular Website\'s Privacy Policies',
+    xaxis: {
+      title: 'Websites',
+      tickfont: { size: 0 }, 
+      showticklabels: false 
+    },
+    yaxis: {
+      title: 'Similarity Score',
+      tickformat: '.2f', 
+      range: [0, 1]
     }
-  }];
-
-  bubbleChartLayout = {
-    title: 'Bubble Chart of Similarity Scores',
-    xaxis: { title: 'URL' },
-    yaxis: { title: 'Similarity Score' }
   };
 
-  constructor(private fb: FormBuilder) {
-    this.heatMapForm.valueChanges.subscribe((x) => {
-      this.outOfBound = true
-        ? x.min &&
-          x.max &&
-          (x.min > x.max ||
-            (x.max - x.min || x.min == x.m) > 30 ||
-            x.min == x.max ||
-            x.max > smartData.length ||
-            x.min > smartData.length)
-        : false;
-    });
-  }
+  treeMapData: any[];
+  treeMapDataPopular: any[];
 
-  ngOnInit(): void {}
+  treeMapLayout = {
+    title: 'Treemap of Similarity Scores for Smart Device Websites',
+    margin: { t: 40, l: 25, r: 25, b: 0 },
+    width: 1000,
+    height: 700
+  };
 
-  prepareHeatMapData(minValue: number, maxValue: number): void {
-    for (let i = minValue; i < maxValue + 1; i++) {
-      let series: Series = {
-        name: '',
-        series: [],
-      };
-      series.name = Object.values(smartData)[i - 1].url;
-      let data: DataItem[] = [];
-      for (let j = minValue; j < maxValue + 1; j++) {
-        let item: DataItem = {
-          name: '',
-          value: '',
-        };
-        item.name = Object.values(smartData)[j - 1].url;
+  treeMapLayoutPopular = {
+    title: 'Treemap of Similarity Scores for Popular Websites',
+    margin: { t: 40, l: 25, r: 25, b: 0 },
+    width: 1000,
+    height: 700
+  };
 
-        item.value =
-          Object.values(formattedSmartData[i].series[j])[1] == null
-            ? 0
-            : (Object.values(formattedSmartData[i].series[j])[1] as number);
-        data.push(item);
+  constructor() {}
+
+  ngOnInit(): void {
+    const treeData = smartData.map((item) => ({
+      url: item.url,
+      score: item.similarity_score,
+    }));
+    treeData.sort((a, b) => b.score - a.score);
+    this.treeMapData = [
+      {
+        type: 'treemap',
+        labels: ['Websites', ...treeData.map(item => item.url)],
+        parents: ['', ...treeData.map(_ => 'Websites')],
+        values: [0, ...treeData.map(item => item.score)],
+        textinfo: 'label+value',
+        texttemplate: '%{label}<br>%{value}',
+        textfont: {
+          size: 18,
+        },hovertemplate: '<b>%{label}</b><br>Similarity Score: %{value}<extra></extra>',
+        marker: {
+          colorscale: 'Viridis'
+        }
+      },
+    ];
+
+    const treeDataPopular = popularData.map((item) => ({
+      url: item.url,
+      score: item.similarity_score,
+    }));
+    treeDataPopular.sort((a, b) => b.score - a.score);
+    this.treeMapDataPopular = [
+      {
+        type: 'treemap',
+        labels: ['Websites', ...treeDataPopular.map(item => item.url)],
+        parents: ['', ...treeDataPopular.map(_ => 'Websites')],
+        values: [0, ...treeDataPopular.map(item => item.score)],
+        textinfo: 'label+value',
+        texttemplate: '%{label}<br>%{value}',
+        textfont: {
+          size: 18,
+        },hovertemplate: '<b>%{label}</b><br>Similarity Score: %{value}<extra></extra>',
+        marker: {
+          colorscale: 'Viridis'
+        }
+      },
+    ];
+
+
+    const barData = smartData
+    barData.sort((a, b) => b.similarity_score - a.similarity_score);
+    this.barChartData = [{
+      x: barData.map(d => d.url),
+      y: barData.map(d => d.similarity_score),
+      type: 'bar',
+      marker: {
+        color: barData.map(d => d.similarity_score),
+        colorscale: 'Viridis',
+        showscale: true
       }
-      series.series = data;
-      this.heatMapChartData.push(series);
-    }
-  }
+    }];
 
-  onGridReady(params: GridReadyEvent) {
-    this.rowData$ = smartData;
-    const gridApi: GridApi = params.api;
-    gridApi.sizeColumnsToFit();
-  }
-
-  onSubmit(params: any): void {
-    this.heatMapChartData = [];
-    this.submitted = true;
-    this.prepareHeatMapData(params.value.min, params.value.max);
+    this.barChartDataPopular = [{
+      x: popularData.map(d => d.url),
+      y: popularData.map(d => d.similarity_score),
+      type: 'bar',
+      marker: {
+        color: popularData.map(d => d.similarity_score),
+        colorscale: 'Viridis',
+        showscale: true
+      }
+    }];
   }
 }

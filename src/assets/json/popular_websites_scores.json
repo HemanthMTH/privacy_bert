@@ -1,0 +1,157 @@
+[
+    {
+        "url": "https://www.invisionapp.com",
+        "similarity_score": 0.699446439743042,
+        "reference": 1
+    },
+    {
+        "url": "https://www.creditkarma.com",
+        "similarity_score": 0.7640377879142761,
+        "reference": 2
+    },
+    {
+        "url": "https://www.skillshare.com",
+        "similarity_score": 0.9348354339599609,
+        "reference": 3
+    },
+    {
+        "url": "https://www.stripe.com",
+        "similarity_score": 0.8234797716140747,
+        "reference": 4
+    },
+    {
+        "url": "https://www.microsoft.com",
+        "similarity_score": 0.9578139185905457,
+        "reference": 5
+    },
+    {
+        "url": "https://www.tripadvisor.com",
+        "similarity_score": 0.7428593635559082,
+        "reference": 6
+    },
+    {
+        "url": "https://www.upwork.com",
+        "similarity_score": 0.6931068897247314,
+        "reference": 7
+    },
+    {
+        "url": "https://www.etsy.com",
+        "similarity_score": 0.7733301520347595,
+        "reference": 8
+    },
+    {
+        "url": "https://www.udemy.com",
+        "similarity_score": 0.6409749984741211,
+        "reference": 9
+    },
+    {
+        "url": "https://www.zoom.us",
+        "similarity_score": 0.7133817076683044,
+        "reference": 10
+    },
+    {
+        "url": "https://www.yelp.com",
+        "similarity_score": 0.8659716248512268,
+        "reference": 11
+    },
+    {
+        "url": "https://www.spotify.com",
+        "similarity_score": 0.7723402976989746,
+        "reference": 12
+    },
+    {
+        "url": "https://www.paypal.com",
+        "similarity_score": 0.7404586672782898,
+        "reference": 13
+    },
+    {
+        "url": "https://www.salesforce.com",
+        "similarity_score": 0.7072933912277222,
+        "reference": 14
+    },
+    {
+        "url": "https://www.personalcapital.com",
+        "similarity_score": 0.9455506801605225,
+        "reference": 15
+    },
+    {
+        "url": "https://www.evernote.com",
+        "similarity_score": 0.7291153073310852,
+        "reference": 16
+    },
+    {
+        "url": "https://www.wordpress.com",
+        "similarity_score": 0.717316746711731,
+        "reference": 17
+    },
+    {
+        "url": "https://www.freelancer.com",
+        "similarity_score": 0.8145702481269836,
+        "reference": 18
+    },
+    {
+        "url": "https://www.mint.com",
+        "similarity_score": 0.6716399192810059,
+        "reference": 19
+    },
+    {
+        "url": "https://www.box.com",
+        "similarity_score": 0.8021183013916016,
+        "reference": 20
+    },
+    {
+        "url": "https://www.netflix.com",
+        "similarity_score": 0.9163693785667419,
+        "reference": 21
+    },
+    {
+        "url": "https://www.twitter.com",
+        "similarity_score": 0.8274312615394592,
+        "reference": 22
+    },
+    {
+        "url": "https://www.oracle.com",
+        "similarity_score": 0.7052165269851685,
+        "reference": 23
+    },
+    {
+        "url": "https://www.skype.com",
+        "similarity_score": 0.7432341575622559,
+        "reference": 24
+    },
+    {
+        "url": "https://www.gofundme.com",
+        "similarity_score": 0.7878866195678711,
+        "reference": 25
+    },
+    {
+        "url": "https://www.kraken.com",
+        "similarity_score": 0.6987128853797913,
+        "reference": 26
+    },
+    {
+        "url": "https://www.mozilla.org/en-US/firefox",
+        "similarity_score": 0.8942445516586304,
+        "reference": 27
+    },
+    {
+        "url": "https://www.1password.com",
+        "similarity_score": 0.8187530040740967,
+        "reference": 28
+    },
+    {
+        "url": "https://www.walmart.com",
+        "similarity_score": 0.5547440052032471,
+        "reference": 29
+    },
+    {
+        "url": "https://www.costco.com",
+        "similarity_score": 0.7208060026168823,
+        "reference": 30
+    },
+    {
+        "url": "https://www.buzzfeed.com",
+        "similarity_score": 0.7779677510261536,
+        "reference": 31
+    }
+]

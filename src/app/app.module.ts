@@ -8,9 +8,12 @@ import { HomeComponent } from './components/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { AgGridModule } from 'ag-grid-angular';
-import { ReportComponent } from './components/report/report.component';
 import { PlotlyModule } from 'angular-plotly.js';
 import * as PlotlyJS from 'plotly.js-dist-min';
+import { MatrixComponent } from './components/matrix/matrix.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { PopularComponent } from './components/popular/popular.component';
+import { ToggleComponent } from './components/toggle/toggle.component';
 
 PlotlyModule.plotlyjs = PlotlyJS;
 @NgModule({
@@ -18,7 +21,9 @@ PlotlyModule.plotlyjs = PlotlyJS;
     AppComponent,
     MembersComponent,
     HomeComponent,
-    ReportComponent
+    MatrixComponent,
+    PopularComponent,
+    ToggleComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +32,7 @@ PlotlyModule.plotlyjs = PlotlyJS;
     NgxChartsModule,
     AgGridModule,
     PlotlyModule,
+    PdfViewerModule,
     AppRoutingModule
   ],
   providers: [],

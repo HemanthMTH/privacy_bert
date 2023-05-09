@@ -1,0 +1,4001 @@
+[
+    {
+        "name": "https://www.invisionapp.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.633178174495697
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7837644219398499
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7326781153678894
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6031313538551331
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.5769675374031067
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7582219243049622
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.5872739553451538
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.5222633481025696
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.6623905897140503
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7331907153129578
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.5728908777236938
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7317736148834229
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7118457555770874
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.6781634092330933
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7463518977165222
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.6508091688156128
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6490181088447571
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7102367877960205
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7518703937530518
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.6067864298820496
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.5171756148338318
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5654478073120117
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7287374138832092
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.757976770401001
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7036113739013672
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5388022065162659
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.5515930652618408
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.4776752293109894
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.590019941329956
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7630426287651062
+            }
+        ]
+    },
+    {
+        "name": "https://www.creditkarma.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.633178174495697
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6889849305152893
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8109706044197083
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7418103218078613
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.5278415083885193
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.766036868095398
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6896625757217407
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4355359673500061
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.8158535957336426
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7722172737121582
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7788267731666565
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7521910071372986
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6681382656097412
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.802925705909729
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.8256170153617859
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7726216316223145
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6791071891784668
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.743711531162262
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7795186638832092
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.793127179145813
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.4885197579860687
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.47109276056289673
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7023866176605225
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7879178524017334
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6625031232833862
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.4663059413433075
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6844015717506409
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6870962381362915
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5769082903862
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7489141821861267
+            }
+        ]
+    },
+    {
+        "name": "https://www.skillshare.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7837644219398499
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.6889849305152893
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7757970690727234
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7056862115859985
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6974466443061829
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8180282711982727
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7197666168212891
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.6021633744239807
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7174200415611267
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7998852133750916
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7380113005638123
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8160235285758972
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7902553081512451
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7299169301986694
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7784035205841064
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7333702445030212
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7682290077209473
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6829017996788025
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7953788042068481
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.6829658150672913
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.7125182747840881
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.6251956224441528
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7367725372314453
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7919215559959412
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7813185453414917
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.6193472146987915
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6608566641807556
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5325564742088318
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6166660785675049
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.8018364310264587
+            }
+        ]
+    },
+    {
+        "name": "https://www.stripe.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7326781153678894
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.8109706044197083
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7757970690727234
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7564098238945007
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6643771529197693
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.81889808177948
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7823638916015625
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.562698483467102
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.8185279965400696
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.8026472330093384
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7749946117401123
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.812900722026825
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.8029473423957825
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7825959920883179
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.8212050795555115
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.8102438449859619
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7367348074913025
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7414190769195557
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.8020970821380615
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7421141862869263
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6337509751319885
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.6408637762069702
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7101367712020874
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8349071145057678
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7776955366134644
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5804241299629211
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6976491808891296
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6237803101539612
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6585847735404968
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7780940532684326
+            }
+        ]
+    },
+    {
+        "name": "https://www.microsoft.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.6031313538551331
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7418103218078613
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7056862115859985
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7564098238945007
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6224275827407837
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.6946620345115662
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7041908502578735
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.6293927431106567
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7308963537216187
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.6486636996269226
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7222407460212708
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.6783884167671204
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7006158232688904
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7375777959823608
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7287675738334656
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7420423030853271
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6055320501327515
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.5942220091819763
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7216415405273438
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.6375083923339844
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.5757964253425598
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.6185131072998047
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7220808863639832
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7332255840301514
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6784439086914062
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.49250489473342896
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.7409211993217468
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.684320867061615
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6447188854217529
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.6336569786071777
+            }
+        ]
+    },
+    {
+        "name": "https://www.tripadvisor.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5769675374031067
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.5278415083885193
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6974466443061829
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.6643771529197693
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6224275827407837
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.6816580295562744
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6519975662231445
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.704540491104126
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.6129193902015686
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.6133734583854675
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.6399192810058594
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.663833737373352
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6732121109962463
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.5546015501022339
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.5736209750175476
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.6165240406990051
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.5956760048866272
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.44321152567863464
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.5768145322799683
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.5357524156570435
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6545604467391968
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.713525116443634
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6178184151649475
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.6431614756584167
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6019248962402344
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.6892021894454956
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.48963049054145813
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.3786764442920685
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6770669221878052
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.562795877456665
+            }
+        ]
+    },
+    {
+        "name": "https://www.upwork.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7582219243049622
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.766036868095398
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.8180282711982727
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.81889808177948
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6946620345115662
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6816580295562744
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7291796803474426
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4536159634590149
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.841076672077179
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.8762179613113403
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7477540373802185
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8812556266784668
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7390548586845398
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7293025255203247
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.8026516437530518
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.8043522834777832
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7572057843208313
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7268853783607483
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.8209841251373291
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.8068439960479736
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.7072636485099792
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5401037931442261
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7874675989151001
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8347404599189758
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7284454107284546
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.6642614006996155
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6407235264778137
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.530106782913208
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5730288624763489
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.8546693921089172
+            }
+        ]
+    },
+    {
+        "name": "https://www.etsy.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5872739553451538
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.6896625757217407
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7197666168212891
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7823638916015625
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7041908502578735
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6519975662231445
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7291796803474426
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.5333665013313293
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7309983968734741
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7416831254959106
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7995586395263672
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7457383871078491
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7365722060203552
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.731785237789154
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7315347194671631
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.787458062171936
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7103601694107056
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6058972477912903
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.709765613079071
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.6985011100769043
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6973598599433899
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.6225630044937134
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6535658836364746
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7523518800735474
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6847529411315918
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5403040647506714
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6184510588645935
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5613026022911072
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6434868574142456
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.675790548324585
+            }
+        ]
+    },
+    {
+        "name": "https://www.udemy.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5222633481025696
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.4355359673500061
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6021633744239807
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.562698483467102
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6293927431106567
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.704540491104126
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.4536159634590149
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.5333665013313293
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.4389727711677551
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.4554900527000427
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.5124093294143677
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.46160441637039185
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6694663763046265
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.5162454843521118
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.4932790994644165
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.4697635769844055
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.4645248055458069
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.34099480509757996
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.43904241919517517
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.34295564889907837
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.4475051462650299
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.8293341398239136
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.46897250413894653
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.5205686688423157
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.5765864849090576
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.4245305061340332
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.43579596281051636
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.3754066228866577
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.7482966184616089
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.45444756746292114
+            }
+        ]
+    },
+    {
+        "name": "https://www.zoom.us",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.6623905897140503
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.8158535957336426
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7174200415611267
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8185279965400696
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7308963537216187
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6129193902015686
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.841076672077179
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7309983968734741
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4389727711677551
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.8032544851303101
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7535732984542847
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7988126873970032
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6447497606277466
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7603570222854614
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7784114480018616
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7810133099555969
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7055021524429321
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7055947184562683
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.8014019131660461
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7866539359092712
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.638427734375
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.48209282755851746
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7527624368667603
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7706612348556519
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6883306503295898
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5742917656898499
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6479405164718628
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6216567754745483
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5595697164535522
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7418050765991211
+            }
+        ]
+    },
+    {
+        "name": "https://www.yelp.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7331907153129578
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7722172737121582
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7998852133750916
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8026472330093384
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6486636996269226
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6133734583854675
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8762179613113403
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7416831254959106
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4554900527000427
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.8032544851303101
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7370783090591431
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8618919849395752
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7617833614349365
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7592290043830872
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.825110673904419
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7521452903747559
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7512831687927246
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.75841224193573
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7967169880867004
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.8083288669586182
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.665239691734314
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5695011019706726
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7534478902816772
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8134111166000366
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7399231791496277
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.567209780216217
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.587186336517334
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5537161827087402
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5702005624771118
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.8706303238868713
+            }
+        ]
+    },
+    {
+        "name": "https://www.spotify.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5728908777236938
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7788267731666565
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7380113005638123
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7749946117401123
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7222407460212708
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6399192810058594
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7477540373802185
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7995586395263672
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.5124093294143677
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7535732984542847
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7370783090591431
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7120161652565002
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7302741408348083
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7362253665924072
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7901347875595093
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7936594486236572
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.727975606918335
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6009405851364136
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7059473395347595
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7094378471374512
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.694193422794342
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5378879308700562
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7337856292724609
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7743346095085144
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6428608298301697
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5763776302337646
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.7118805646896362
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6094377636909485
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6124637126922607
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.6852326393127441
+            }
+        ]
+    },
+    {
+        "name": "https://www.paypal.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7317736148834229
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7521910071372986
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.8160235285758972
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.812900722026825
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6783884167671204
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.663833737373352
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8812556266784668
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7457383871078491
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.46160441637039185
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7988126873970032
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.8618919849395752
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7120161652565002
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7558507919311523
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.761750340461731
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7889471650123596
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7750397324562073
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7491852045059204
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.8015424609184265
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.8241182565689087
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.8139433860778809
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.676740288734436
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5718281269073486
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7431821823120117
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8170653581619263
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7919648289680481
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.6223897337913513
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6483075618743896
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5720500946044922
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5986741781234741
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.8364266157150269
+            }
+        ]
+    },
+    {
+        "name": "https://www.salesforce.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7118457555770874
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.6681382656097412
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7902553081512451
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8029473423957825
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7006158232688904
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6732121109962463
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7390548586845398
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7365722060203552
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.6694663763046265
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.6447497606277466
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7617833614349365
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7302741408348083
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7558507919311523
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7602550983428955
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7648389935493469
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7384231090545654
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.707798182964325
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6730427742004395
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7180157899856567
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.6401104927062988
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.5864414572715759
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.7049896121025085
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7283347845077515
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7766255736351013
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7403731942176819
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5616279244422913
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6502705216407776
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5589609742164612
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6823666095733643
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7388712167739868
+            }
+        ]
+    },
+    {
+        "name": "https://www.personalcapital.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.6781634092330933
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.802925705909729
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7299169301986694
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7825959920883179
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7375777959823608
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.5546015501022339
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7293025255203247
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.731785237789154
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.5162454843521118
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7603570222854614
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7592290043830872
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7362253665924072
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.761750340461731
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7602550983428955
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7944978475570679
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7835513949394226
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6516188383102417
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7366091012954712
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7713673114776611
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7690941691398621
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.5248687267303467
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.569422721862793
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6788998246192932
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8229935169219971
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7641940116882324
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.4278187155723572
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6350415945053101
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6708949208259583
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6478531360626221
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.778928816318512
+            }
+        ]
+    },
+    {
+        "name": "https://www.evernote.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7463518977165222
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.8256170153617859
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7784035205841064
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8212050795555115
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7287675738334656
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.5736209750175476
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8026516437530518
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7315347194671631
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4932790994644165
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7784114480018616
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.825110673904419
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7901347875595093
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7889471650123596
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7648389935493469
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7944978475570679
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7837753891944885
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6937658190727234
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7577366828918457
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.8248444199562073
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7497249841690063
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6223665475845337
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5630902647972107
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7627223134040833
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8143128156661987
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7543893456459045
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5229535698890686
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6820279955863953
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6359903216362
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6368148326873779
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7968409061431885
+            }
+        ]
+    },
+    {
+        "name": "https://www.wordpress.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.6508091688156128
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7726216316223145
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7333702445030212
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8102438449859619
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7420423030853271
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6165240406990051
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8043522834777832
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.787458062171936
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4697635769844055
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7810133099555969
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7521452903747559
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7936594486236572
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7750397324562073
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7384231090545654
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7835513949394226
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7837753891944885
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7399935126304626
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6795874834060669
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7959492206573486
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7904884815216064
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6552961468696594
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.57219398021698
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7073981165885925
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8271611928939819
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6629329323768616
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.538894534111023
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.7133409976959229
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6057106256484985
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6290504336357117
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7450068593025208
+            }
+        ]
+    },
+    {
+        "name": "https://www.freelancer.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.6490181088447571
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.6791071891784668
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7682290077209473
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7367348074913025
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6055320501327515
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.5956760048866272
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7572057843208313
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7103601694107056
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4645248055458069
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7055021524429321
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7512831687927246
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.727975606918335
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7491852045059204
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.707798182964325
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.6516188383102417
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.6937658190727234
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7399935126304626
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6573968529701233
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7336750626564026
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.6677864789962769
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.620795488357544
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5135948061943054
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6567027568817139
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7237769365310669
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.652251124382019
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5528815984725952
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.651286244392395
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.4308893084526062
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.543964684009552
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7347437739372253
+            }
+        ]
+    },
+    {
+        "name": "https://www.mint.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7102367877960205
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.743711531162262
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6829017996788025
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7414190769195557
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.5942220091819763
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.44321152567863464
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7268853783607483
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6058972477912903
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.34099480509757996
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7055947184562683
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.75841224193573
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.6009405851364136
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8015424609184265
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6730427742004395
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7366091012954712
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7577366828918457
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.6795874834060669
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6573968529701233
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7821426391601562
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7663677930831909
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.4624916613101959
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.4725559949874878
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6878096461296082
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7159939408302307
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7092826962471008
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.44812601804733276
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6020095348358154
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5920613408088684
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5214139223098755
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7589439153671265
+            }
+        ]
+    },
+    {
+        "name": "https://www.box.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7518703937530518
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7795186638832092
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7953788042068481
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8020970821380615
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7216415405273438
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.5768145322799683
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8209841251373291
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.709765613079071
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.43904241919517517
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.8014019131660461
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7967169880867004
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7059473395347595
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8241182565689087
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7180157899856567
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7713673114776611
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.8248444199562073
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7959492206573486
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7336750626564026
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7821426391601562
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7741643190383911
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6080901026725769
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5159642696380615
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7245468497276306
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.8022146821022034
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7585572004318237
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5121026039123535
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.684665322303772
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.6165949702262878
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6093803644180298
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.8301212787628174
+            }
+        ]
+    },
+    {
+        "name": "https://www.netflix.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.6067864298820496
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.793127179145813
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6829658150672913
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7421141862869263
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6375083923339844
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.5357524156570435
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8068439960479736
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6985011100769043
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.34295564889907837
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7866539359092712
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.8083288669586182
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7094378471374512
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8139433860778809
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6401104927062988
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7690941691398621
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7497249841690063
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7904884815216064
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6677864789962769
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7663677930831909
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7741643190383911
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.5846810936927795
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.4584047198295593
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7134667634963989
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7803357243537903
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6139785647392273
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5052172541618347
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.5897124409675598
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5903229117393494
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5492478013038635
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.780389666557312
+            }
+        ]
+    },
+    {
+        "name": "https://www.twitter.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5171756148338318
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.4885197579860687
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7125182747840881
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.6337509751319885
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.5757964253425598
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6545604467391968
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7072636485099792
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6973598599433899
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4475051462650299
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.638427734375
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.665239691734314
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.694193422794342
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.676740288734436
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.5864414572715759
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.5248687267303467
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.6223665475845337
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.6552961468696594
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.620795488357544
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.4624916613101959
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.6080901026725769
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.5846810936927795
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.4942009747028351
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6205487251281738
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.6758482456207275
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6157194375991821
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.6744632124900818
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.5187527537345886
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.39315932989120483
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.4565296769142151
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.5735297799110413
+            }
+        ]
+    },
+    {
+        "name": "https://www.oracle.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5654478073120117
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.47109276056289673
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6251956224441528
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.6408637762069702
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6185131072998047
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.713525116443634
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.5401037931442261
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6225630044937134
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.8293341398239136
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.48209282755851746
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.5695011019706726
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.5378879308700562
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.5718281269073486
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7049896121025085
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.569422721862793
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.5630902647972107
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.57219398021698
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.5135948061943054
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.4725559949874878
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.5159642696380615
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.4584047198295593
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.4942009747028351
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.4908362329006195
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.5607735514640808
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6257582902908325
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.44978612661361694
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.4358502924442291
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.37236732244491577
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.7364410758018494
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.5589051842689514
+            }
+        ]
+    },
+    {
+        "name": "https://www.skype.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7287374138832092
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7023866176605225
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7367725372314453
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7101367712020874
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7220808863639832
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6178184151649475
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7874675989151001
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6535658836364746
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.46897250413894653
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7527624368667603
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7534478902816772
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7337856292724609
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7431821823120117
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7283347845077515
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.6788998246192932
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7627223134040833
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7073981165885925
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.6567027568817139
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6878096461296082
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7245468497276306
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7134667634963989
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6205487251281738
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.4908362329006195
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7349463701248169
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.5988494157791138
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.6231736540794373
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6426876187324524
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.557309091091156
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.5429251194000244
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.6770060062408447
+            }
+        ]
+    },
+    {
+        "name": "https://www.gofundme.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.757976770401001
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7879178524017334
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7919215559959412
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.8349071145057678
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7332255840301514
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6431614756584167
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8347404599189758
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.7523518800735474
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.5205686688423157
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7706612348556519
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.8134111166000366
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7743346095085144
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8170653581619263
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7766255736351013
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.8229935169219971
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.8143128156661987
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.8271611928939819
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7237769365310669
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7159939408302307
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.8022146821022034
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.7803357243537903
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6758482456207275
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5607735514640808
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.7349463701248169
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7554091215133667
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5790213346481323
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6648512482643127
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5831648707389832
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6218928694725037
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7848899364471436
+            }
+        ]
+    },
+    {
+        "name": "https://www.kraken.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7036113739013672
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.6625031232833862
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.7813185453414917
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7776955366134644
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6784439086914062
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6019248962402344
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.7284454107284546
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6847529411315918
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.5765864849090576
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.6883306503295898
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.7399231791496277
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.6428608298301697
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.7919648289680481
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7403731942176819
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.7641940116882324
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7543893456459045
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.6629329323768616
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.652251124382019
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7092826962471008
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.7585572004318237
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.6139785647392273
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6157194375991821
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.6257582902908325
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.5988494157791138
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7554091215133667
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5154099464416504
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.6029908061027527
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5274349451065063
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.6033028364181519
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.7490761280059814
+            }
+        ]
+    },
+    {
+        "name": "https://www.mozilla.org/en-US/firefox",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5388022065162659
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.4663059413433075
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6193472146987915
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.5804241299629211
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.49250489473342896
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6892021894454956
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.6642614006996155
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.5403040647506714
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.4245305061340332
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.5742917656898499
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.567209780216217
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.5763776302337646
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.6223897337913513
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.5616279244422913
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.4278187155723572
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.5229535698890686
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.538894534111023
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.5528815984725952
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.44812601804733276
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.5121026039123535
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.5052172541618347
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.6744632124900818
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.44978612661361694
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6231736540794373
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.5790213346481323
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.5154099464416504
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.5124718546867371
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.31481993198394775
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.4332839250564575
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.4941861927509308
+            }
+        ]
+    },
+    {
+        "name": "https://www.1password.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.5515930652618408
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.6844015717506409
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6608566641807556
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.6976491808891296
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.7409211993217468
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.48963049054145813
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.6407235264778137
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6184510588645935
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.43579596281051636
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.6479405164718628
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.587186336517334
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.7118805646896362
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.6483075618743896
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6502705216407776
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.6350415945053101
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.6820279955863953
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7133409976959229
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.651286244392395
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.6020095348358154
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.684665322303772
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.5897124409675598
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.5187527537345886
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.4358502924442291
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6426876187324524
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.6648512482643127
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6029908061027527
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.5124718546867371
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.616529643535614
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.4968503415584564
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.5805383324623108
+            }
+        ]
+    },
+    {
+        "name": "https://www.walmart.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.4776752293109894
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.6870962381362915
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.5325564742088318
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.6237803101539612
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.684320867061615
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.3786764442920685
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.530106782913208
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.5613026022911072
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.3754066228866577
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.6216567754745483
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.5537161827087402
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.6094377636909485
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.5720500946044922
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.5589609742164612
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.6708949208259583
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.6359903216362
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.6057106256484985
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.4308893084526062
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.5920613408088684
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.6165949702262878
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.5903229117393494
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.39315932989120483
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.37236732244491577
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.557309091091156
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.5831648707389832
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.5274349451065063
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.31481993198394775
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.616529643535614
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.4970322251319885
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.5463881492614746
+            }
+        ]
+    },
+    {
+        "name": "https://www.costco.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.590019941329956
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.5769082903862
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.6166660785675049
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.6585847735404968
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6447188854217529
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.6770669221878052
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.5730288624763489
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.6434868574142456
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.7482966184616089
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.5595697164535522
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.5702005624771118
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.6124637126922607
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.5986741781234741
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.6823666095733643
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.6478531360626221
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.6368148326873779
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.6290504336357117
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.543964684009552
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.5214139223098755
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.6093803644180298
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.5492478013038635
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.4565296769142151
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.7364410758018494
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.5429251194000244
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.6218928694725037
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.6033028364181519
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.4332839250564575
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.4968503415584564
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.4970322251319885
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 1.0
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 0.594311535358429
+            }
+        ]
+    },
+    {
+        "name": "https://www.buzzfeed.com",
+        "series": [
+            {
+                "name": "https://www.invisionapp.com",
+                "value": 0.7630426287651062
+            },
+            {
+                "name": "https://www.creditkarma.com",
+                "value": 0.7489141821861267
+            },
+            {
+                "name": "https://www.skillshare.com",
+                "value": 0.8018364310264587
+            },
+            {
+                "name": "https://www.stripe.com",
+                "value": 0.7780940532684326
+            },
+            {
+                "name": "https://www.microsoft.com",
+                "value": 0.6336569786071777
+            },
+            {
+                "name": "https://www.tripadvisor.com",
+                "value": 0.562795877456665
+            },
+            {
+                "name": "https://www.upwork.com",
+                "value": 0.8546693921089172
+            },
+            {
+                "name": "https://www.etsy.com",
+                "value": 0.675790548324585
+            },
+            {
+                "name": "https://www.udemy.com",
+                "value": 0.45444756746292114
+            },
+            {
+                "name": "https://www.zoom.us",
+                "value": 0.7418050765991211
+            },
+            {
+                "name": "https://www.yelp.com",
+                "value": 0.8706303238868713
+            },
+            {
+                "name": "https://www.spotify.com",
+                "value": 0.6852326393127441
+            },
+            {
+                "name": "https://www.paypal.com",
+                "value": 0.8364266157150269
+            },
+            {
+                "name": "https://www.salesforce.com",
+                "value": 0.7388712167739868
+            },
+            {
+                "name": "https://www.personalcapital.com",
+                "value": 0.778928816318512
+            },
+            {
+                "name": "https://www.evernote.com",
+                "value": 0.7968409061431885
+            },
+            {
+                "name": "https://www.wordpress.com",
+                "value": 0.7450068593025208
+            },
+            {
+                "name": "https://www.freelancer.com",
+                "value": 0.7347437739372253
+            },
+            {
+                "name": "https://www.mint.com",
+                "value": 0.7589439153671265
+            },
+            {
+                "name": "https://www.box.com",
+                "value": 0.8301212787628174
+            },
+            {
+                "name": "https://www.netflix.com",
+                "value": 0.780389666557312
+            },
+            {
+                "name": "https://www.twitter.com",
+                "value": 0.5735297799110413
+            },
+            {
+                "name": "https://www.oracle.com",
+                "value": 0.5589051842689514
+            },
+            {
+                "name": "https://www.skype.com",
+                "value": 0.6770060062408447
+            },
+            {
+                "name": "https://www.gofundme.com",
+                "value": 0.7848899364471436
+            },
+            {
+                "name": "https://www.kraken.com",
+                "value": 0.7490761280059814
+            },
+            {
+                "name": "https://www.mozilla.org/en-US/firefox",
+                "value": 0.4941861927509308
+            },
+            {
+                "name": "https://www.1password.com",
+                "value": 0.5805383324623108
+            },
+            {
+                "name": "https://www.walmart.com",
+                "value": 0.5463881492614746
+            },
+            {
+                "name": "https://www.costco.com",
+                "value": 0.594311535358429
+            },
+            {
+                "name": "https://www.buzzfeed.com",
+                "value": 1.0
+            }
+        ]
+    }
+]

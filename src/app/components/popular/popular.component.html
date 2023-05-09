@@ -1,0 +1,56 @@
+<div class="container my-5">
+
+    <div class="ag-theme-alpine my-5">
+      <ag-grid-angular #agGrid style="height: 520px;" [rowData]="rowData$" [columnDefs]="columnDefs"
+        [defaultColDef]="defaultColDef" [animateRows]="true" [gridOptions]="gridOptions"
+        (gridReady)="onGridReady($event)">
+      </ag-grid-angular>
+    </div>
+
+
+
+    <div class="alert alert-info text-center mt-2 custom" role="alert">
+      <i class="fa fa-info-circle me-2"></i>
+      <span><strong>Note: </strong>Select subset of URLs here in the below form for comparison. You can check similarity
+        scores for all possible pairs. (Refer table above for selecting range) <p class="text-danger">Range size should not be greater than 30. (For proper visibility)</p> </span>
+    </div>
+
+
+    <div class="d-flex justify-content-center mt-5">
+        <form [formGroup]="heatMapForm" (ngSubmit)="onSubmit(heatMapForm)" class="row g-3">
+            <div class="col-auto">
+                <label for="placeholder" class="visually-hidden">Heading</label>
+                <input type="text" readonly class="form-control-plaintext" id="placeholder" value="Select Range">
+            </div>
+            <div class="col-auto">
+                <label for="min" class="visually-hidden">Enter</label>
+                <input type="number" formControlName="min" class="form-control" id="min" placeholder="Min">
+            </div>
+            <div class="col-auto">
+                <label for="max" class="visually-hidden">Enter</label>
+                <input type="number" formControlName="max" class="form-control" id="max" placeholder="Max">
+
+            </div>
+            <div *ngIf="outOfBound" class="text-danger col-auto">
+                <div> Invalid Range!! </div>
+            </div>
+            <div class="col-auto">
+                <button type="submit" [disabled]="heatMapForm.invalid || outOfBound"
+                    class="btn btn-primary mb-3">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <div *ngIf="submitted" class="container mt-5 text-center">
+        <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+                <ngx-charts-heat-map [view]="view" [scheme]="customColor" [legend]="legend"
+                    [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxis]="xAxis" [yAxis]="yAxis"
+                    [xAxisLabel]="xAxisLabelH" [yAxisLabel]="yAxisLabelH" [results]="heatMapChartData">
+                </ngx-charts-heat-map>
+            </div>
+        </div>
+    </div>
+
+</div>
