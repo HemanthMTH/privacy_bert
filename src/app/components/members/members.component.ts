@@ -25,7 +25,7 @@ export class MembersComponent implements OnInit {
       name: 'Sanjetha Pericherla',
       affiliation: 'University of Maryland, Baltimore County',
       position: 'MS Student',
-      imagePath: '../../../assets/images/profile.jpg',
+      imagePath: '../../../assets/images/sanjetha.jpg',
     },
   ];
 

@@ -13,20 +13,6 @@ export class HomeComponent implements OnInit {
   barChartData: any[];
   barChartDataPopular: any[];
   barChartLayoutPopular = {
-    title: 'Similarity Scores of two different versions of Smart Device Website\'s Privacy Policies',
-    xaxis: {
-      title: 'Websites',
-      tickfont: { size: 0 }, 
-      showticklabels: false 
-    },
-    yaxis: {
-      title: 'Similarity Score',
-      tickformat: '.2f', 
-      range: [0, 1]
-    }
-  };
-
-  barChartLayout = {
     title: 'Similarity Scores of two different versions of Some Popular Website\'s Privacy Policies',
     xaxis: {
       title: 'Websites',
@@ -37,7 +23,25 @@ export class HomeComponent implements OnInit {
       title: 'Similarity Score',
       tickformat: '.2f', 
       range: [0, 1]
-    }
+    },
+    width: 800,
+    height: 500,
+  };
+
+  barChartLayout = {
+    title: 'Similarity Scores of two different versions of Smart Device Website\'s Privacy Policies',
+    xaxis: {
+      title: 'Websites',
+      tickfont: { size: 0 }, 
+      showticklabels: false 
+    },
+    yaxis: {
+      title: 'Similarity Score',
+      tickformat: '.2f', 
+      range: [0, 1]
+    },
+    width: 800,
+    height: 500,
   };
 
   treeMapData: any[];
@@ -118,12 +122,15 @@ export class HomeComponent implements OnInit {
       }
     }];
 
+    const popularBarData = popularData
+    popularBarData.sort((a, b) => b.similarity_score - a.similarity_score)
+
     this.barChartDataPopular = [{
-      x: popularData.map(d => d.url),
-      y: popularData.map(d => d.similarity_score),
+      x: popularBarData.map(d => d.url),
+      y: popularBarData.map(d => d.similarity_score),
       type: 'bar',
       marker: {
-        color: popularData.map(d => d.similarity_score),
+        color: popularBarData.map(d => d.similarity_score),
         colorscale: 'Viridis',
         showscale: true
       }

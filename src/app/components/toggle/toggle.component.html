@@ -1,13 +1,49 @@
-<div class="d-flex justify-content-center align-items-center mb-3">
-    <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
-            (change)="toggleComponents()" [checked]="!showPopular">
-        <label class="form-check-label" for="flexSwitchCheckChecked">{{type}}</label>
-    </div>
+<div
+  class="alert alert-info d-flex justify-content-center align-items-center mt-1"
+  role="alert"
+>
+  <p class="lead">
+    Toggle below to switch between popular and smart device websites.
+  </p>
 </div>
 
-<h4>Similarity Matrix of privacy policies of
-    {{type}}</h4>
+<div class="d-flex justify-content-center align-items-center mb-3">
+  <div class="form-check form-switch">
+    <input
+      class="form-check-input"
+      type="checkbox"
+      role="switch"
+      id="flexSwitchCheckChecked"
+      (change)="toggleComponents()"
+      [checked]="!showPopular"
+    />
+    <label class="form-check-label" for="flexSwitchCheckChecked">{{
+      type
+    }}</label>
+  </div>
+</div>
+<p class="lead">
+  This tool is designed to help you visualize the similarity between different
+  websites. The websites are divided into two main categories: 'Smart Device
+  Manufacturer Websites', which are websites of companies that produce smart
+  devices like watches, speakers, etc., and 'Popular Websites', which include a
+  variety of well-known websites from different sectors. Our heatmap shows how
+  similar these websites are to each other based on various factors like design,
+  content, and user engagement. We used 2020 version privacy policies in this
+  case.
+</p>
+<p class="lead">
+  To use this tool, simply choose your preferred category - either 'Smart Device
+  Websites' or 'Popular Websites'. Once you've selected a category, the heatmap
+  will dynamically update to display your selected websites. The colors in the
+  heatmap represent how similar the websites are - warmer colors represent high
+  similarity, while cooler colors indicate less similarity. By using the toggle
+  button, you can easily switch between the two categories. This way, you can
+  explore, compare, and understand the similarities between different websites
+  in an engaging and user-friendly manner. Enjoy exploring!
+</p>
+
+<h4>Similarity Matrix of privacy policies of {{ type }}</h4>
 
 <app-popular *ngIf="showPopular"></app-popular>
 <app-matrix *ngIf="!showPopular"></app-matrix>

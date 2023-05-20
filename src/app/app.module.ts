@@ -14,6 +14,7 @@ import { MatrixComponent } from './components/matrix/matrix.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PopularComponent } from './components/popular/popular.component';
 import { ToggleComponent } from './components/toggle/toggle.component';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 PlotlyModule.plotlyjs = PlotlyJS;
 @NgModule({
@@ -23,7 +24,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     HomeComponent,
     MatrixComponent,
     PopularComponent,
-    ToggleComponent
+    ToggleComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,7 @@ PlotlyModule.plotlyjs = PlotlyJS;
     AgGridModule,
     PlotlyModule,
     PdfViewerModule,
+    NgSelectModule,
     AppRoutingModule
   ],
   providers: [],

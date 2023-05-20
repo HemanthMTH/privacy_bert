@@ -1,10 +1,77 @@
 <div class="container my-5">
+  <p class="lead">
+    This interface is developed to visualize the results obtained by our CMSC 641 project
+    ("Assessing Privacy Policy Evolution with BERT").
+  </p>
+  <p class="lead">
+    What we're doing here is pretty cool. We're using a powerful tool, called
+    BERT, to compare the privacy policies of lots of different websites.
+    Specifically, we're looking at how these policies have changed between 2016
+    and 2020. With BERT, we can tell how similar two pieces of text are - so we
+    can see how much a policy has changed over time. By doing this, we can help
+    people understand what's happening with online privacy, and which websites
+    are making big changes.
+  </p>
   <h2 class="fw-bold text-center">Similarity Scores</h2>
 
+  <p class="lead">
+    The following chart you're looking at is called a tree map. It's showing how
+    similar the privacy policies of 45 smart device manufacturers' websites are
+    between 2016 and 2020. Each block or square on the chart is a different
+    website. The color gradient of the block tells you how similar the two
+    privacy policies of corresponding website are. The blocks are arranged from
+    top to bottom based on how similar the policies are, with the most similar
+    at the top. This helps you see which websites made big changes to their
+    privacy policies over those four years, and which ones didn't change much at
+    all.
+  </p>
+
+  <div class="container mt-5 mb-3 text-center">
+    <div class="row d-flex justify-content-center">
+      <div class="col-auto">
+        <plotly-plot
+          [data]="treeMapData"
+          [layout]="treeMapLayout"
+        ></plotly-plot>
+      </div>
+    </div>
+  </div>
+  <p class="lead">
+    Take a look below bar graph. It's a simple, straightforward way to
+    understand our project results. On the X-axis at the bottom, you'll see
+    different website labels - each one represents a different website. On the
+    Y-axis, you'll see a number scale, these are the similarity scores. Each bar
+    in the graph corresponds to a website. The height of the bar shows how
+    similar the smart device manufacturer's website's privacy policy in 2020 is
+    to its 2016 version. The taller the bar, the more similar the policies,
+    meaning less change has happened over these four years. By looking at this
+    graph, you can easily compare the changes in privacy policies across
+    different websites.
+  </p>
   <div class="container mt-5 text-center">
     <div class="row d-flex justify-content-center">
       <div class="col-auto">
-        <plotly-plot [data]="treeMapData" [layout]="treeMapLayout"></plotly-plot>
+        <plotly-plot
+          [data]="barChartData"
+          [layout]="barChartLayout"
+        ></plotly-plot>
+      </div>
+    </div>
+  </div>
+  <p class="lead">
+    These next two charts might look familiar, but they're showing different
+    information. While they're set up just like the previous ones, the data is
+    all about 31 popular websites this time. The charts show how much these
+    websites' privacy policies changed between 2016 and 2020.
+  </p>
+
+  <div class="container mt-5 text-center">
+    <div class="row d-flex justify-content-center">
+      <div class="col-auto">
+        <plotly-plot
+          [data]="treeMapDataPopular"
+          [layout]="treeMapLayoutPopular"
+        ></plotly-plot>
       </div>
     </div>
   </div>
@@ -12,25 +79,11 @@
   <div class="container mt-5 text-center">
     <div class="row d-flex justify-content-center">
       <div class="col-auto">
-        <plotly-plot [data]="barChartData" [layout]="barChartLayout"></plotly-plot>
+        <plotly-plot
+          [data]="barChartDataPopular"
+          [layout]="barChartLayoutPopular"
+        ></plotly-plot>
       </div>
     </div>
   </div>
-
-  <div class="container mt-5 text-center">
-    <div class="row d-flex justify-content-center">
-      <div class="col-auto">
-        <plotly-plot [data]="treeMapDataPopular" [layout]="treeMapLayoutPopular"></plotly-plot>
-      </div>
-    </div>
-  </div>
-
-  <div class="container mt-5 text-center">
-    <div class="row d-flex justify-content-center">
-      <div class="col-auto">
-        <plotly-plot [data]="barChartDataPopular" [layout]="barChartLayoutPopular"></plotly-plot>
-      </div>
-    </div>
-  </div>
-
 </div>

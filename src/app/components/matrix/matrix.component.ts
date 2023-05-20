@@ -12,6 +12,30 @@ import {
 
 import { interpolateRgbBasis } from 'd3-interpolate';
 
+export interface DataItem {
+  name: string | number | Date;
+  value: string | number | Date;
+  extra?: any;
+  min?: number;
+  max?: number;
+  label?: string;
+}
+
+export interface Series {
+  name: string | number | Date;
+  series: DataItem[];
+}
+
+export interface HeatMapEntry {
+  name: string;
+  value: number;
+}
+
+export interface HeatMapPolicy {
+  name: string;
+  series: HeatMapEntry[];
+}
+
 function generateColorScheme(steps: number): string[] {
   const interpolator = interpolateRgbBasis([
     '#FF0000', // Red for value 0
@@ -30,34 +54,24 @@ function generateColorScheme(steps: number): string[] {
   return colors;
 }
 
-interface DataItem {
-  name: string | number | Date;
-  value: string | number | Date;
-  extra?: any;
-  min?: number;
-  max?: number;
-  label?: string;
-}
-
-interface Series {
-  name: string | number | Date;
-  series: DataItem[];
-}
-
 @Component({
   selector: 'app-matrix',
   templateUrl: './matrix.component.html',
   styleUrls: ['./matrix.component.scss'],
 })
 export class MatrixComponent implements OnInit {
-  heatMapForm: FormGroup = this.fb.group({
-    min: [null, Validators.compose([Validators.required, Validators.min(1)])],
-    max: [null, Validators.compose([Validators.required, Validators.min(1)])],
-  });
+  // heatMapForm: FormGroup = this.fb.group({
+  //   min: [null, Validators.compose([Validators.required, Validators.min(1)])],
+  //   max: [null, Validators.compose([Validators.required, Validators.min(1)])],
+  // });
 
-  outOfBound: boolean;
-  submitted: boolean;
-  heatMapChartData: Series[] = [];
+  // outOfBound: boolean;
+  // submitted: boolean;
+  showChart: boolean;
+  hmData: HeatMapPolicy[] = [];
+
+  selectedWebsites: HeatMapPolicy[] = [];
+  chartHeatmapData: Series[] = [];
 
   // Dynamic heatmap
   view: [number, number] = [1000, 800];
@@ -92,54 +106,77 @@ export class MatrixComponent implements OnInit {
   public columnDefs: ColDef[] = [
     {
       field: 'reference',
+      headerName: 'S. No',
+      width: 100,
     },
     {
-      headerName: 'URL',
+      headerName: 'Website',
       field: 'url',
     },
   ];
 
   constructor(private fb: FormBuilder) {
-    this.heatMapForm.valueChanges.subscribe((x) => {
-      this.outOfBound = true
-        ? x.min &&
-          x.max &&
-          (x.min > x.max ||
-            (x.max - x.min || x.min == x.m) > 30 ||
-            x.min == x.max ||
-            x.max > smartData.length ||
-            x.min > smartData.length)
-        : false;
-    });
+    // this.heatMapForm.valueChanges.subscribe((x) => {
+    //   this.outOfBound = true
+    //     ? x.min &&
+    //       x.max &&
+    //       (x.min > x.max ||
+    //         (x.max - x.min || x.min == x.m) > 30 ||
+    //         x.min == x.max ||
+    //         x.max > smartData.length ||
+    //         x.min > smartData.length)
+    //     : false;
+    // });
+    this.hmData = formattedSmartData as HeatMapPolicy[];
+    this.hmData = this.hmData.sort((a, b) => a.name.localeCompare(b.name))
   }
 
   ngOnInit(): void {}
 
-  prepareHeatMapData(minValue: number, maxValue: number): void {
-    for (let i = minValue; i < maxValue + 1; i++) {
-      let series: Series = {
-        name: '',
-        series: [],
-      };
-      series.name = Object.values(smartData)[i - 1].url;
-      let data: DataItem[] = [];
-      for (let j = minValue; j < maxValue + 1; j++) {
-        let item: DataItem = {
-          name: '',
-          value: '',
-        };
-        item.name = Object.values(smartData)[j - 1].url;
-
-        item.value =
-          Object.values(formattedSmartData[i].series[j])[1] == null
-            ? 0
-            : (Object.values(formattedSmartData[i].series[j])[1] as number);
-        data.push(item);
-      }
-      series.series = data;
-      this.heatMapChartData.push(series);
-    }
+  onWebsiteChange(param: HeatMapPolicy[]): void {
+    this.selectedWebsites = param;
+    this.updateHeatmapData();
+    this.showChart = this.selectedWebsites.length > 1;
   }
+
+  updateHeatmapData() {
+    this.chartHeatmapData = this.selectedWebsites.map((website) => {
+      return {
+        name: website.name,
+        series: website.series.filter((seriesItem) =>
+          this.selectedWebsites.some(
+            (selectedWebsite) => selectedWebsite.name === seriesItem.name
+          )
+        ),
+      };
+    });
+  }
+
+  // prepareHeatMapData(minValue: number, maxValue: number): void {
+  //   for (let i = minValue; i < maxValue + 1; i++) {
+  //     let series: Series = {
+  //       name: '',
+  //       series: [],
+  //     };
+  //     series.name = Object.values(smartData)[i - 1].url;
+  //     let data: DataItem[] = [];
+  //     for (let j = minValue; j < maxValue + 1; j++) {
+  //       let item: DataItem = {
+  //         name: '',
+  //         value: '',
+  //       };
+  //       item.name = Object.values(smartData)[j - 1].url;
+
+  //       item.value =
+  //         Object.values(formattedSmartData[i].series[j])[1] == null
+  //           ? 0
+  //           : (Object.values(formattedSmartData[i].series[j])[1] as number);
+  //       data.push(item);
+  //     }
+  //     series.series = data;
+  //     this.heatMapChartData.push(series);
+  //   }
+  // }
 
   onGridReady(params: GridReadyEvent) {
     this.rowData$ = smartData
@@ -149,9 +186,9 @@ export class MatrixComponent implements OnInit {
     gridApi.sizeColumnsToFit();
   }
 
-  onSubmit(params: any): void {
-    this.heatMapChartData = [];
-    this.submitted = true;
-    this.prepareHeatMapData(params.value.min, params.value.max);
-  }
+  // onSubmit(params: any): void {
+  //   this.heatMapChartData = [];
+  //   this.submitted = true;
+  //   this.prepareHeatMapData(params.value.min, params.value.max);
+  // }
 }

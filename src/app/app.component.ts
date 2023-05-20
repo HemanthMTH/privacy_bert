@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Assessing Privacy Policy Evolution with BERT';
+  currentYear = new Date().getFullYear();
 }

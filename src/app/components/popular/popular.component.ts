@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import popularData from '../../../assets/json/popular_websites_scores.json';
 import formattedPopularData from '../../../assets/json/popular_formatted_similarity_matrix_2020.json';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+
 import { Color, ScaleType } from '@swimlane/ngx-charts';
 import {
   ColDef,
@@ -11,6 +11,13 @@ import {
 } from 'ag-grid-community';
 
 import { interpolateRgbBasis } from 'd3-interpolate';
+
+import {
+  DataItem,
+  Series,
+  HeatMapEntry,
+  HeatMapPolicy,
+} from '../matrix/matrix.component';
 
 function generateColorScheme(steps: number): string[] {
   const interpolator = interpolateRgbBasis([
@@ -30,38 +37,20 @@ function generateColorScheme(steps: number): string[] {
   return colors;
 }
 
-interface DataItem {
-  name: string | number | Date;
-  value: string | number | Date;
-  extra?: any;
-  min?: number;
-  max?: number;
-  label?: string;
-}
-
-interface Series {
-  name: string | number | Date;
-  series: DataItem[];
-}
-
 @Component({
   selector: 'app-popular',
   templateUrl: './popular.component.html',
-  styleUrls: ['./popular.component.scss']
+  styleUrls: ['./popular.component.scss'],
 })
 export class PopularComponent implements OnInit {
+  showChart: boolean;
+  hmData: HeatMapPolicy[] = [];
 
-  heatMapForm: FormGroup = this.fb.group({
-    min: [null, Validators.compose([Validators.required, Validators.min(1)])],
-    max: [null, Validators.compose([Validators.required, Validators.min(1)])],
-  });
-
-  outOfBound: boolean;
-  submitted: boolean;
-  heatMapChartData: Series[] = [];
+  selectedWebsites: HeatMapPolicy[] = [];
+  chartHeatmapData: Series[] = [];
 
   // Dynamic heatmap
-  view: [number, number] = [1000, 800];
+  view: [number, number] = [800, 500];
   showXAxis = true;
   showYAxis = true;
   showXAxisLabel = true;
@@ -93,53 +82,20 @@ export class PopularComponent implements OnInit {
   public columnDefs: ColDef[] = [
     {
       field: 'reference',
+      headerName: 'S. No',
+      width: 100,
     },
     {
-      headerName: 'URL',
+      headerName: 'Website',
       field: 'url',
     },
   ];
-  constructor(private fb: FormBuilder) {
-    this.heatMapForm.valueChanges.subscribe((x) => {
-      this.outOfBound = true
-        ? x.min &&
-          x.max &&
-          (x.min > x.max ||
-            (x.max - x.min || x.min == x.m) > 30 ||
-            x.min == x.max ||
-            x.max > popularData.length ||
-            x.min > popularData.length)
-        : false;
-    });
+  constructor() {
+    this.hmData = formattedPopularData as HeatMapPolicy[];
+    this.hmData = this.hmData.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   ngOnInit(): void {}
-
-  prepareHeatMapData(minValue: number, maxValue: number): void {
-    for (let i = minValue; i < maxValue + 1; i++) {
-      let series: Series = {
-        name: '',
-        series: [],
-      };
-      series.name = Object.values(popularData)[i - 1].url;
-      let data: DataItem[] = [];
-      for (let j = minValue; j < maxValue + 1; j++) {
-        let item: DataItem = {
-          name: '',
-          value: '',
-        };
-        item.name = Object.values(popularData)[j - 1].url;
-
-        item.value =
-          Object.values(formattedPopularData[i].series[j])[1] == null
-            ? 0
-            : (Object.values(formattedPopularData[i].series[j])[1] as number);
-        data.push(item);
-      }
-      series.series = data;
-      this.heatMapChartData.push(series);
-    }
-  }
 
   onGridReady(params: GridReadyEvent) {
     this.rowData$ = popularData
@@ -149,9 +105,22 @@ export class PopularComponent implements OnInit {
     gridApi.sizeColumnsToFit();
   }
 
-  onSubmit(params: any): void {
-    this.heatMapChartData = [];
-    this.submitted = true;
-    this.prepareHeatMapData(params.value.min, params.value.max);
+  onWebsiteChange(param: HeatMapPolicy[]): void {
+    this.selectedWebsites = param;
+    this.updateHeatmapData();
+    this.showChart = this.selectedWebsites.length > 1;
+  }
+
+  updateHeatmapData() {
+    this.chartHeatmapData = this.selectedWebsites.map((website) => {
+      return {
+        name: website.name,
+        series: website.series.filter((seriesItem) =>
+          this.selectedWebsites.some(
+            (selectedWebsite) => selectedWebsite.name === seriesItem.name
+          )
+        ),
+      };
+    });
   }
 }
