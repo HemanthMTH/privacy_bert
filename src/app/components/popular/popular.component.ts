@@ -45,7 +45,7 @@ function generateColorScheme(steps: number): string[] {
 export class PopularComponent implements OnInit {
   showChart: boolean;
   hmData: HeatMapPolicy[] = [];
-  hmDataDrop: HeatMapPolicy[] = [];
+ 
 
   selectedWebsites: HeatMapPolicy[] = [];
   chartHeatmapData: Series[] = [];
@@ -123,7 +123,6 @@ export class PopularComponent implements OnInit {
         colorscale: 'Viridis',
       },
     ];
-    this.hmDataDrop = this.hmData.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   ngOnInit(): void {}

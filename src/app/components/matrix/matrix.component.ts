@@ -62,7 +62,7 @@ function generateColorScheme(steps: number): string[] {
 export class MatrixComponent implements OnInit {
   showChart: boolean;
   hmData: HeatMapPolicy[] = [];
-  hmDataDrop: HeatMapPolicy[] = [];
+
 
   selectedWebsites: HeatMapPolicy[] = [];
   chartHeatmapData: Series[] = [];
@@ -144,7 +144,7 @@ export class MatrixComponent implements OnInit {
         },
       },
     ];
-    this.hmDataDrop = this.hmData.sort((a, b) => a.name.localeCompare(b.name));
+    
   }
 
   ngOnInit(): void {}
