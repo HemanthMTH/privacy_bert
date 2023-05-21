@@ -12,7 +12,7 @@
   </div>
   <ng-select
     class="mb-3 highlighted-select"
-    [items]="hmData"
+    [items]="hmDataDrop"
     bindLabel="name"
     placeholder="Select websites"
     [multiple]="true"
@@ -39,7 +39,14 @@
       </div>
     </div>
   </div>
-
+  <p class="lead">Below chart is the similarity matrix of privacy policies that covers all 31 popular websites that we collected.</p>
+  <div class="container mt-5 text-center">
+    <div class="row d-flex justify-content-center">
+      <div class="col-auto">
+        <plotly-plot [data]="data" [layout]="layout"></plotly-plot>
+      </div>
+    </div>
+  </div>
   <p class="lead mt-2">
     Below grid is a structured layout representing list of all 31 popular
     websites that we used.
@@ -58,4 +65,5 @@
     >
     </ag-grid-angular>
   </div>
+  
 </div>

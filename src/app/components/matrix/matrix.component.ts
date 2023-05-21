@@ -60,15 +60,9 @@ function generateColorScheme(steps: number): string[] {
   styleUrls: ['./matrix.component.scss'],
 })
 export class MatrixComponent implements OnInit {
-  // heatMapForm: FormGroup = this.fb.group({
-  //   min: [null, Validators.compose([Validators.required, Validators.min(1)])],
-  //   max: [null, Validators.compose([Validators.required, Validators.min(1)])],
-  // });
-
-  // outOfBound: boolean;
-  // submitted: boolean;
   showChart: boolean;
   hmData: HeatMapPolicy[] = [];
+  hmDataDrop: HeatMapPolicy[] = [];
 
   selectedWebsites: HeatMapPolicy[] = [];
   chartHeatmapData: Series[] = [];
@@ -115,20 +109,41 @@ export class MatrixComponent implements OnInit {
     },
   ];
 
+  data: any[];
+
+  layout = {
+    xaxis: {
+      title: 'Websites',
+      showticklabels: false,
+    },
+    yaxis: {
+      title: 'Websites',
+      showticklabels: false,
+    },
+    width: 900,
+    height: 600,
+  };
+
   constructor(private fb: FormBuilder) {
-    // this.heatMapForm.valueChanges.subscribe((x) => {
-    //   this.outOfBound = true
-    //     ? x.min &&
-    //       x.max &&
-    //       (x.min > x.max ||
-    //         (x.max - x.min || x.min == x.m) > 30 ||
-    //         x.min == x.max ||
-    //         x.max > smartData.length ||
-    //         x.min > smartData.length)
-    //     : false;
-    // });
     this.hmData = formattedSmartData as HeatMapPolicy[];
-    this.hmData = this.hmData.sort((a, b) => a.name.localeCompare(b.name))
+
+    const yLabels = this.hmData.map((d) => d.name);
+    const xLabels = this.hmData[0].series.map((d) => d.name);
+    const zData = this.hmData.map((d) => d.series.map((d) => d.value));
+
+    this.data = [
+      {
+        z: zData,
+        x: xLabels,
+        y: yLabels,
+        type: 'heatmap',
+        colorscale: 'Viridis',
+        marker: {
+          colorscale: 'Viridis',
+        },
+      },
+    ];
+    this.hmDataDrop = this.hmData.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   ngOnInit(): void {}
@@ -152,32 +167,6 @@ export class MatrixComponent implements OnInit {
     });
   }
 
-  // prepareHeatMapData(minValue: number, maxValue: number): void {
-  //   for (let i = minValue; i < maxValue + 1; i++) {
-  //     let series: Series = {
-  //       name: '',
-  //       series: [],
-  //     };
-  //     series.name = Object.values(smartData)[i - 1].url;
-  //     let data: DataItem[] = [];
-  //     for (let j = minValue; j < maxValue + 1; j++) {
-  //       let item: DataItem = {
-  //         name: '',
-  //         value: '',
-  //       };
-  //       item.name = Object.values(smartData)[j - 1].url;
-
-  //       item.value =
-  //         Object.values(formattedSmartData[i].series[j])[1] == null
-  //           ? 0
-  //           : (Object.values(formattedSmartData[i].series[j])[1] as number);
-  //       data.push(item);
-  //     }
-  //     series.series = data;
-  //     this.heatMapChartData.push(series);
-  //   }
-  // }
-
   onGridReady(params: GridReadyEvent) {
     this.rowData$ = smartData
       .sort((a, b) => b.reference - a.reference)
@@ -185,10 +174,4 @@ export class MatrixComponent implements OnInit {
     const gridApi: GridApi = params.api;
     gridApi.sizeColumnsToFit();
   }
-
-  // onSubmit(params: any): void {
-  //   this.heatMapChartData = [];
-  //   this.submitted = true;
-  //   this.prepareHeatMapData(params.value.min, params.value.max);
-  // }
 }

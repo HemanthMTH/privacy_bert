@@ -45,6 +45,7 @@ function generateColorScheme(steps: number): string[] {
 export class PopularComponent implements OnInit {
   showChart: boolean;
   hmData: HeatMapPolicy[] = [];
+  hmDataDrop: HeatMapPolicy[] = [];
 
   selectedWebsites: HeatMapPolicy[] = [];
   chartHeatmapData: Series[] = [];
@@ -90,9 +91,38 @@ export class PopularComponent implements OnInit {
       field: 'url',
     },
   ];
+
+  data: any[];
+
+  layout = {
+    xaxis: {
+      title: 'Websites',
+      showticklabels: false,
+    },
+    yaxis: {
+      title: 'Websites',
+      showticklabels: false,
+    },
+    width: 900,
+    height: 600,
+  };
+
   constructor() {
     this.hmData = formattedPopularData as HeatMapPolicy[];
-    this.hmData = this.hmData.sort((a, b) => a.name.localeCompare(b.name));
+    const yLabels = this.hmData.map((d) => d.name);
+    const xLabels = this.hmData[0].series.map((d) => d.name);
+    const zData = this.hmData.map((d) => d.series.map((d) => d.value));
+
+    this.data = [
+      {
+        z: zData,
+        x: xLabels,
+        y: yLabels,
+        type: 'heatmap',
+        colorscale: 'Viridis',
+      },
+    ];
+    this.hmDataDrop = this.hmData.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   ngOnInit(): void {}
