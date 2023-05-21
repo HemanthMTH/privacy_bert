@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   barChartData: any[];
   barChartDataPopular: any[];
   barChartLayoutPopular = {
-    //title: 'Similarity Scores of two different versions of Some Popular Website\'s Privacy Policies',
+    title: 'Similarity Scores of two different versions of Some Popular Website\'s Privacy Policies',
     xaxis: {
       title: 'Websites',
       tickfont: { size: 0 }, 
@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
   };
 
   barChartLayout = {
-    //title: 'Similarity Scores of two different versions of Smart Device Website\'s Privacy Policies',
+    title: 'Similarity Scores of two different versions of Smart Device Website\'s Privacy Policies',
     xaxis: {
       title: 'Websites',
       tickfont: { size: 0 }, 

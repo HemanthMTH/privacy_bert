@@ -95,6 +95,7 @@ export class PopularComponent implements OnInit {
   data: any[];
 
   layout = {
+    title: 'Similarity Matrix of all 31 websites',
     xaxis: {
       title: 'Websites',
       showticklabels: false,

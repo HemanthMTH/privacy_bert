@@ -112,6 +112,7 @@ export class MatrixComponent implements OnInit {
   data: any[];
 
   layout = {
+    title: 'Similarity Matrix of all 45 websites',
     xaxis: {
       title: 'Websites',
       showticklabels: false,
